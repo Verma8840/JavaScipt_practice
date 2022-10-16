@@ -1,0 +1,1 @@
+let Obj = new("hello")
