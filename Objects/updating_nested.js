@@ -1,9 +1,9 @@
 /*
 Input:
-const userDetails = { name: { first: "Rajesh", last: "saini", }, jobTitle: "JS vv0520273@gmail.com", email: { work: "kapil@google.com", personal: "", }, status: { isOnline: true, isVerified: false, } }
+const userDetails = { name: { first: "Rajesh", last: "saini", }, jobTitle: "JS vv0520273@gmail.com", email: { work: "vv0520273@gmail.com", personal: "", }, status: { isOnline: true, isVerified: false, } }
 
 Output:
-{ name: { first: 'Virendra', last: 'Verma' }, jobTitle: 'JS student', email: { work: 'vv0520273@gmail.com', personal: '' }, status: { isOnline: true, isVerified: false }, isProMember: false }
+{ name: { first: 'Virendra', last: 'Verma' }, jobTitle: 'JS student@almabetter', email: { work: 'vv0520273@gmail.com', personal: '' }, status: { isOnline: true, isVerified: false }, isProMember: false }
 
  */
 
