@@ -1,4 +1,4 @@
-// program to display numbers from 1 to 5
+// program to display numbers from 1 to 100
 const n = 100;
 
 // looping from i = 1 to 100
