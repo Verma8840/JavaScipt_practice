@@ -19,3 +19,23 @@
       </form>       
    </body>  
 </html>  
+
+
+
+
+/*html>  
+   <head>     
+      <script type = "text/javascript">  
+            function fun() {  
+               alert(location.hostname);  
+            }  
+      </script>       
+   </head>  
+     
+   <body>  
+      <p> Click the following button to see the effect </p>        
+      <form>  
+         <input type = "button" value = "Click me" onclick = "fun();" />  
+      </form>       
+   </body>  
+</html>  */
