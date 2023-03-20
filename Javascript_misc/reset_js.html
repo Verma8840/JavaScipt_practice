@@ -1,0 +1,25 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title> JavaScript return </title>  
+</head>  
+<body>  
+<h1> Welcome to the javaTpoint.com </h1>  
+<h3> This is an example of returning multiple values using array </h3>  
+<script>  
+function getData() {  
+let fname = 'John',  
+lname = 'Rickman',  
+age = '25',  
+occupation = 'Private Employee';  
+  
+return [fname, lname, age, occupation];  
+}  
+const [fname, lname, age, occupation] = getData();  
+  
+document.write("Name = " + fname + " " + lname + "<br>");  
+document.write("Age = " + age + "<br>");  
+document.write("Occupation = " + occupation);  
+</script>  
+</body>  
+</html> 
