@@ -4,10 +4,10 @@ class Employee
    
 //Initializing an object  
     constructor(id,name)  
-    {  
+     
       this.id=id;  
       this.name=name;  
-    }  
+      
 //Declaring method  
     detail()  
     {  
