@@ -1,0 +1,52 @@
+<!DOCTYPE html>   
+<html>  
+<head>   
+<title>Conversion of comma separated string to array in JavaScript   
+</title>   
+</head>     
+<body>   
+<h1 style="color: green">   
+      JavaTpoint       
+</h1>   
+<b>Conversion of comma separated string   
+      to array in JavaScript</b>   
+<p>Original string is   
+      "Twenty, Thirty, Fourty, Fifty, Sixty"</p>   
+<p>   
+      Separated Array is: <span class="output"></span>   
+</p>   
+    
+<button onclick="separateString()">   
+      Remove Text   
+</button>   
+<script type="text/javascript">   
+          
+        function separateString()   
+{               
+            originalString =   
+              "Twenty, Thirty, Fourty, Fifty, Sixty";   
+            separatedArray = [];   
+              
+            let previousIndex = 0;       // index of end of the last string  
+    
+            for (i = 0; i < originalString.length; i++)   
+{   
+    
+       if (originalString[i] == ', ')     // check the character for a comma   
+{                            
+separated =        // split the string from the last index to the comma    
+originalString.slice(previousIndex, i);   
+separatedArray.push(separated);   
+  
+previousIndex = i + 1;                 // update the index of the last string     
+                }   
+            }  
+        separatedArray.push(          // push the last string into the array   
+        originalString.slice(previousIndex, i));     
+        console.log(separatedArray);   
+        document.querySelector(   
+        '.output').textContent = separatedArray;   
+        }   
+</script>   
+</body>   
+</html>  
