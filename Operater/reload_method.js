@@ -12,4 +12,4 @@ location.reload();
   
 <p> Click the following 'Reload' button to see the effect. </p>  
   
-<button onclick = "fun()"> Reload </button>  
+<button onclick = "fun()"> Reload </button>
